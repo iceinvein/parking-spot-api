@@ -1,0 +1,43 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": [
+        "plugin:mocha/recommended",
+        "plugin:chai-friendly/recommended"
+    ],
+    "plugins": [
+        "mocha",
+        "chai-friendly"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "mocha/no-skipped-tests": "error",
+        "mocha/no-exclusive-tests": "error",
+        "prefer-arrow-callback": 0,
+        "mocha/prefer-arrow-callback": 2
+    },
+    "settings": {
+        "mocha/additionalCustomNames": [
+            {
+                "name": "describeModule",
+                "type": "suite",
+                "interfaces": [
+                    "BDD"
+                ]
+            },
+            {
+                "name": "testModule",
+                "type": "testCase",
+                "interfaces": [
+                    "TDD"
+                ]
+            }
+        ]
+    }
+}

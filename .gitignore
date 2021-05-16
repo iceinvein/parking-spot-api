@@ -1,0 +1,10 @@
+node_modules
+mongoData
+.vscode
+mongo-db.yaml
+test.http
+.env
+logs/*.log
+.env.dev
+.env.test
+mochawesome-report

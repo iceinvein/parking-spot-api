@@ -1,0 +1,22 @@
+## environment variables
+
+```
+# APP
+PORT=
+
+# Database
+MONGODB_URL=
+
+# JWT
+JWT_SECRET=
+JWT_EXPIRE=
+JWT_COOKIE_EXPIRE=
+
+# CORS
+CORS_ORIGIN=
+
+# Logging
+LOG_LEVEL=
+ERROR_LOG_FILE=
+LOG_FILE=
+```
