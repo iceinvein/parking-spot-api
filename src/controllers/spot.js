@@ -29,7 +29,7 @@ exports.addSpot = asyncHandler(async (req, res, next) => {
   }
 });
 
-// @desc Delete a spot
+// @desc Get spot info
 // @route GET /api/v1/spot/:id
 // @access Private
 exports.getInfo = asyncHandler(async (req, res, next) => {
