@@ -147,7 +147,7 @@ exports.listMyClaimedSpots = asyncHandler(async (req, res, next) => {
   next();
 });
 
-// @desc Get all my claimed spots
+// @desc Get all my published spots
 // @route GET /api/v1/spot/listMySpots
 // @access Private
 exports.listMySpots = asyncHandler(async (req, res, next) => {
